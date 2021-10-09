@@ -1,0 +1,30 @@
+{
+  "name": "uniswapv3-gsheet-autoupdate",
+  "version": "1.0.0",
+  "description": "Uniswap V3 position value daily auto update to google spreadsheet",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cryptic-core/uniswapv3-gsheet-autoupdate.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cryptic-core/uniswapv3-gsheet-autoupdate/issues"
+  },
+  "homepage": "https://github.com/cryptic-core/uniswapv3-gsheet-autoupdate#readme",
+  "dependencies": {
+    "@uniswap/sdk-core": "^3.0.1",
+    "@uniswap/v3-sdk": "^3.5.1",
+    "i": "^0.3.7",
+    "jsbi": "^3.2.5",
+    "request": "^2.81.0",
+    "google-spreadsheet": "^3.1.15",
+    "dotenv": "^8.2.0",
+    "web3": "^1.6.0"
+  }
+}
